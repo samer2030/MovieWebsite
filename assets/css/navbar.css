@@ -1,0 +1,28 @@
+nav{
+    background: linear-gradient( rgba(20, 20, 20,1) 0% , rgba(20, 20, 100,0.8) 100%);
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 2em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    z-index:1;
+    padding: 0;
+}
+
+
+/* Style the links inside the navigation bar */
+nav a {
+    padding: 1em 3em;
+    
+ 
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+    background-color: rgba(100,0,255,0.4);
+}
+
